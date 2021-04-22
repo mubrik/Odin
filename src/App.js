@@ -244,6 +244,7 @@ const Body = (props) => {
         },
         onSubmit: values => {
           alert(JSON.stringify(values, null, 2));
+          alert('Not yet implemented :(')
         },
     })
 
@@ -253,7 +254,7 @@ const Body = (props) => {
           password: '',
         },
         onSubmit: values => {
-          alert(JSON.stringify(values, null, 2));
+          /* alert(JSON.stringify(values, null, 2)); */
           setuserUsername(values['username']) 
           handleAuthentication()
         },
